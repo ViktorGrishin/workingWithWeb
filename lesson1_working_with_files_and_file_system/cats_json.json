@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Barsik",
+    "age": 7,
+    "meals": [
+      "Wiskas",
+      "Royal Canin",
+      "Purina",
+      "Hills",
+      "Brit Care"
+    ]
+  },
+  {
+    "name": "Vasya",
+    "age": 1,
+    "meals": [
+      "bread",
+      "susi",
+      "milk"
+    ]
+  }
+]
