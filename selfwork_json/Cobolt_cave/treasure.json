@@ -1,0 +1,14 @@
+[
+  {
+    "room": "living room",
+    "size": 35
+  },
+  {
+    "room": "bedroom",
+    "size": 27
+  },
+  {
+    "room": "bathroom",
+    "size": 18
+  }
+]

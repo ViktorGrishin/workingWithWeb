@@ -1,0 +1,17 @@
+[
+  {
+    "place": "courtyard",
+    "rests": 7,
+    "smallest": 1
+  },
+  {
+    "place": "lake",
+    "rests": 1,
+    "smallest": 0
+  },
+  {
+    "place": "mountain",
+    "rests": 13,
+    "smallest": 1
+  }
+]
