@@ -84,6 +84,7 @@ def greeting(username):
                   </body>'''
 
 
+# http://127.0.0.1:8080/two_params/<username>/<int:number>
 @app.route('/two_params/<username>/<int:number>')
 def two_params(username, number):
     return f'''<!doctype html>
@@ -118,7 +119,7 @@ def form_sample():
                             href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
                             integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
                             crossorigin="anonymous">
-                            <link rel="stylesheet" type="text/css" href="{url_for('static', filename='css/style.css')}" />
+                            <link rel="stylesheet" type="text/css" href="{url_for('static', filename='css/style.css')}"/>
                             <title>Пример формы</title>
                           </head>
                           <body>

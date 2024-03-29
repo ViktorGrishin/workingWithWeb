@@ -34,12 +34,13 @@ def return_sample_page():
                   </head>
                   <body>
                     <h1>Жди нас, Марс!</h1>
-                    <img src="{url_for('static', filename='images/riana.jpeg')}" 
-                        alt="здесь должна была быть картинка, но не нашлась">
+                    <img src="https://strek-time.ru/wp-content/uploads/d/0/c/d0cc49cccc7857301415d1da4a71157e.jpeg" 
+                        alt="здесь должна была быть картинка, но не нашлась" width=500>
+                    <div>Вот она какая, красная планета </div>
                     
                   </body>
                 </html>"""
 
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=8080)
+    app.run(host='127.0.0.1', port=8080, debug=True)
