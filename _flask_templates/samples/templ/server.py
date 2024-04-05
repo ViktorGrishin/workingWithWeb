@@ -29,5 +29,17 @@ def news():
 def sample():
     return render_template('my_sample.html')
 
+
+@app.route('/deque')
+def deque():
+    return render_template('deque.html', title='Очередь')
+
+
+@app.route('/my_deq/<deq>')
+def my_deq(deq):
+    deq = deq.split()
+    return render_template('my_deq.html', user_list=deq, title='Вторая очередь')
+
+
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8000, debug=True)

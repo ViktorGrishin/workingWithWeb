@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Это твоё задание на сегодня</h2>
+{% if prof == "учёный" %}
+<img src="https://cosmosplanet.ru/wp-content/uploads/2019/01/34ce818532ffa3c91e2f561c1f87fa6c.png"
+     alt="А ты сам не помнишь карту Солнечной сиситемы?" width="500">
+<div>
+
+    Помни, где мы находимся!
+</div>
+{% elif prof == "инженер" %}
+<img width="500" src="https://yastatic.net/s3/lyceum/content/images/second-year/web/MARS-2-2.png" alt="Помни и схему">
+<div>
+
+    Знай, как починить!
+</div>
+{% elif prof == "капитан" %}
+<img width="500" src="https://avatars.mds.yandex.net/i?id=891dbaa193951a024e9db19419877483ee6b213c-12650537-images-thumbs&n=13"
+     alt="Виват, Ура!">
+<div>
+    Да здравствует капитан корабля!
+</div>
+{% else %}
+<div>А ты кто такой?</div>
+<img width="500" src="https://berlin.sprashivai.ru/14,1c997d1aebaee3.jpg" alt="Выйди в космос!">
+{% endif %}
+<div></div>
+{% endblock %}
